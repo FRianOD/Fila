@@ -40,15 +40,3 @@ class Fila:
     
     def Busca(self, valor):
         pass
-    
-fila = Fila()
-fila.enfileirar(10)
-fila.enfileirar(20)
-fila.enfileirar(30)
-
-print(f"Tamanho da fila : {fila.tamanho()}")
-
-lixo = fila.desenfileirar()
-print(f"Elemento retirado : {lixo}")
-
-print(f"Tamanho da lista apos a remoção : {fila.tamanho()}")

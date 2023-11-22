@@ -17,7 +17,7 @@ class Fila:
         
         novoDado = Dado(valor)
         
-        if self.estaVazia() is True:
+        if self.estaVazia():
             self.inicio = self.fim = novoDado
         
         else: 
@@ -28,7 +28,7 @@ class Fila:
     
     def desenfileirar(self):
         
-        if self.estaVazia() is True:
+        if self.estaVazia():
             print("Fila vazia")
             return None
         
@@ -49,7 +49,7 @@ class Fila:
     
     def buscar(self, valor):
         
-        if self.estaVazia() is None: return "Fila vazia"
+        if self.estaVazia(): return "Fila vazia"
         
         temp = self.inicio
         
@@ -65,7 +65,7 @@ class Fila:
         
     def mostrarFila(self):
         
-        if self.estaVazia() is None: return "Fila vazia"
+        if self.estaVazia(): return "Fila vazia"
         
         temp = self.inicio
         

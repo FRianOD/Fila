@@ -5,7 +5,5 @@ Operações possiveis:
   -Remover Elemento
   -Tamanho da Fila
   -Verificar se a Fila esta vazia
-
-Operações que serão Adicionadas:
   -Buscar Elemento
   -Mostrar Fila
